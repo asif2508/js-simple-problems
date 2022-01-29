@@ -40,4 +40,15 @@ function Factorial(number){
         console.log(newnumber);
     }
 }
-Factorial(10);
+//factorial using while loop
+function factorialWhile(number){
+    let i = number;
+    let newnumber  = 1;
+    while(i > 0){
+        newnumber *= i;
+        i--;
+    }
+    console.log(newnumber);
+}
+
+factorialWhile(10);
